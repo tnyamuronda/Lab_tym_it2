@@ -20,7 +20,7 @@ Run the doctests to verify that all functions are correct:
 ```
 $ python3 -m doctest palindrome.py
 ```
-Now open the `palindrome.py` file in vim and verify that the doctests are testing all both functions using all three data types.
+Now open the `palindrome.py` file in vim and verify that the doctests are testing all functions using all three data types.
 Read through the implementation of the functions,
 and make sure you understand how they work.
 Take a guess at which one will be faster,
@@ -45,7 +45,7 @@ and tell the person sitting next to you what your guess is.
 
 **Part 1:**
 
-Now you will use the [timeit module](https://docs.python.org/3/library/timeit.html) in python to measure the runtimes of the palendrome functions.
+Now you will use the [timeit module](https://docs.python.org/3/library/timeit.html) in python to measure the runtimes of the palindrome functions.
 This module is used in the terminal in the following way:
 ```
 $ python3 -m timeit -s "$SETUP_CODE" "$CODE_TO_TIME"
